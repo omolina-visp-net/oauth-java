@@ -1,5 +1,4 @@
-# oauth-java
-# oauth-java
+
 ## Java Sample for OAuth
 
 Welcome to the Intuit Developer's Java OAuth Sample App.
