@@ -5,7 +5,7 @@
         </script>
      <script>intuit.ipp.anywhere.setup({
           menuProxy: '',
-          grantUrl: 'http://localhost:8080/OauthSample/RequestToken'});
+          grantUrl: 'http://http://innercircle.visp.net:1234/OauthSample/RequestToken'});
      </script>
    </head>
    <body>
