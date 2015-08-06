@@ -9,7 +9,7 @@
 <body>
 OAuth Successful!!
  <script type="text/javascript">
- window.opener.location.href="/OauthSample/findallcustomers.jsp";
+ window.opener.location.href="/findallcustomers.jsp";
  window.close();
  </script>
 </body>
