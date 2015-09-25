@@ -94,7 +94,7 @@ public class AccessTokenServlet extends HttpServlet {
 				accesstokenmap.put("accessTokenSecret", accessTokenSecret);
 				session.setAttribute("accessToken", accesstokenmap.get("accessToken"));
 				session.setAttribute("accessTokenSecret", accesstokenmap.get("accessTokenSecret"));
-				response.sendRedirect("/OauthSample/connected.jsp");
+				response.sendRedirect("/connected.jsp");
 			}
 		}
 
