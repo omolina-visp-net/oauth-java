@@ -23,11 +23,11 @@
    <body id="main_body" class="no_guidelines safari">
        <img id="top" src="./WEB-Files/top.png" alt="">
       <div id="form_container">
-         <form id="qb" class="appnitro">             
-               <h2>OAuth Successful!!</h2>
+         <form id="qb" class="appnitro">         
+             <b> Successfully connected to QuickBooks Online. </b> <br>
+             <b> You may close this window. </b
+               
          </form>
-         <div id="footer">		
-         </div>
       </div>
       <img id="bottom" src="./WEB-Files/bottom.png" alt="">
    </body>
