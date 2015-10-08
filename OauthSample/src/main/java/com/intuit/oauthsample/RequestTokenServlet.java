@@ -43,7 +43,6 @@ public class RequestTokenServlet extends HttpServlet{
 		
 		logger.info("RequestToken");
 		// Invoke the helper class and retrieve the request token. 
-		OAuthConsumer oauthconsumer;
 		
 		OAuthUtils utils = new OAuthUtils();
 		Properties prop = utils.readProperties();
@@ -53,7 +52,7 @@ public class RequestTokenServlet extends HttpServlet{
 		try {
 
 			// Read the consumer key and secret from the Properties file to create the OauthConsumer object
-			oauthconsumer = new DefaultOAuthConsumer(request.getParameter("consumer_key"), request.getParameter("consumer_secret"));
+			OAuthConsumer oauthconsumer = new DefaultOAuthConsumer(request.getParameter("consumer_key"), request.getParameter("consumer_secret"));
 			
 			// The retrieveRequestToken method in the signpost library calls the request token URL configured in the OAuthProvider object 
 			// to retrieve the token and sends the response to the URL configured in the Oauth Callback URL configured in the properties file
