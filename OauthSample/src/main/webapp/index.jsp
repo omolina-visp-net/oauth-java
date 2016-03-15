@@ -56,4 +56,10 @@
       </div>
       <img id="bottom" src="./WEB-Files/bottom.png" alt="">
    </body>
+   <script>
+        var consumer_key = getUrlVars()["consumer_key"];
+        var consumer_secret = getUrlVars()["consumer_secret"];
+        document.getElementById("consumer_key").value = consumer_key;
+        document.getElementById("consumer_secret").value = consumer_secret;
+   </script>
 </html>
