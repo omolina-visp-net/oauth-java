@@ -37,13 +37,13 @@
                <li id="li_1">
                   <label class="description" for="consumer_key">Consumer Key </label>
                   <div>
-                     <input id="consumer_key" name="consumer_key" class="element text medium" type="text" maxlength="255" value=""> 
+                      <input id="consumer_key" name="consumer_key" class="element text medium" type="text" maxlength="255"><script>getParamValue("consumer_key")</script></input>
                   </div>
                </li>
                <li id="li_2">
                   <label class="description" for="consumer_secret">Consumer Secret </label>
                   <div>
-                     <input id="consumer_secret" name="consumer_secret" class="element text medium" type="text" maxlength="255" value=""> 
+                     <input id="consumer_secret" name="consumer_secret" class="element text medium" type="text" maxlength="255"><script>getParamValue("consumer_secret")</script></input>
                   </div>
                </li>
                <li class="buttons">
@@ -57,8 +57,8 @@
       <img id="bottom" src="./WEB-Files/bottom.png" alt="">
    </body>
    <script>
-        var consumer_key = getUrlVars()["consumer_key"];
-        var consumer_secret = getUrlVars()["consumer_secret"];
+        var consumer_key = getParamValue("consumer_key");
+        var consumer_secret = getParamValue("consumer_secret");
         document.getElementById("consumer_key").value = consumer_key;
         document.getElementById("consumer_secret").value = consumer_secret;
    </script>
