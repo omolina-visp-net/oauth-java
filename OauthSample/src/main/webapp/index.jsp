@@ -22,7 +22,7 @@
       <script type="text/javascript" src="https://appcenter.intuit.com/Content/IA/intuit.ipp.anywhere-1.3.2.js"></script>
       <script>intuit.ipp.anywhere.setup({
          menuProxy: '',
-         grantUrl: 'http://innercircle.visp.net:1234/RequestToken?consumer_key='+getParamValue("consumer_key")+"&consumer_secret="+getParamValue("consumer_secret")}); 
+         grantUrl: 'http://innercircle.visp.net:29998/RequestToken?consumer_key='+getParamValue("consumer_key")+"&consumer_secret="+getParamValue("consumer_secret")}); 
       </script>
    </head>
    <body id="main_body" class="no_guidelines safari">
