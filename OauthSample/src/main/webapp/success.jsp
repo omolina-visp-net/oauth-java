@@ -17,19 +17,17 @@
             response.addCookie(new Cookie("accessToken", accesstoken));
             response.addCookie(new Cookie("accessTokenSecret", accessstokensecret));
             response.addCookie(new Cookie("realm", realmID));
-        %>        
-        
+        %>
  
    <body id="main_body" class="no_guidelines safari">
        <img id="top" src="./WEB-Files/top.png" alt="">
       <div id="form_container">
          <form id="qb" class="appnitro">         
-             <b> Successfully connected to QuickBooks Online. </b> <br>
-             <%
-            out.println("<b>Access Token</b>: " + accesstoken +"<br>");
-            out.println("<b>Access Token Secret</b>: " + accessstokensecret +"<br>");
-            out.println("<b>Realm ID</b>: " + realmID) +"<br>";
-            %>
+            <b> Successfully connected to QuickBooks Online. </b> <br>
+            <b>Access Token</b>: <%= session.getAttribute("accessToken") %> <br>
+            <b>Access Token Secret</b>: <%= session.getAttribute("accessTokenSecret") %> <br>
+            <b>Realm ID</b>: <%= session.getAttribute("realmId") %> <br>
+            <b> You may close this window. </b>
          </form>
       </div>
       <img id="bottom" src="./WEB-Files/bottom.png" alt="">
