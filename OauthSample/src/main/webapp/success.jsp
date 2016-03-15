@@ -24,10 +24,11 @@
       <div id="form_container">
          <form id="qb" class="appnitro">         
             <b> Successfully connected to QuickBooks Online. </b> <br>
-            <b>Access Token</b>: <%= session.getAttribute("accessToken") %> <br>
-            <b>Access Token Secret</b>: <%= session.getAttribute("accessTokenSecret") %> <br>
-            <b>Realm ID</b>: <%= session.getAttribute("realmId") %> <br>
-            <b> You may close this window. </b>
+            <b> Kindly copy the following into UBO: </b> <br> <br>
+            <b> Access Token</b>: <%= session.getAttribute("accessToken") %> <br>
+            <b> Access Token Secret</b>: <%= session.getAttribute("accessTokenSecret") %> <br>
+            <b> Realm ID</b>: <%= session.getAttribute("realmId") %> <br> <br>
+            <b> You may close this window after copying. </b>
          </form>
       </div>
       <img id="bottom" src="./WEB-Files/bottom.png" alt="">

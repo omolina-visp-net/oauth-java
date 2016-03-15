@@ -13,7 +13,7 @@ body
 	border:1px solid #ccc;
 	margin:0 auto;
 	text-align:left;
-	width:340px;
+	width:400px;
 }
 
 #top
@@ -21,7 +21,7 @@ body
 	display:block;
 	height:10px;
 	margin:10px auto 0;
-	width:349px;
+	width:409px;
 }
 
 #footer
@@ -46,7 +46,7 @@ body
 	display:block;
 	height:10px;
 	margin:0 auto;
-	width:349px;
+	width:409px;
 }
 
 form.appnitro
